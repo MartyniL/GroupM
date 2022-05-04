@@ -1,0 +1,14 @@
+newmtl Monkey1:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd MonoLowPoly_02_-_Default_BaseColor.png
+Ni 1.00
+newmtl Monkey1:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd MonoLowPoly_ojos_default_BaseColor.png
+Ni 1.00
