@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529cba12f7e3be249976a27bfd12fa54, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  WeaponType: 0
+  bulletDamage: 10
+  bullets: 10
+  reloadTime: 2
+  spawnDist: 0.75
+  loaded: 1
+  reloading: 0
+  ammo: 5
+  maxSpread: 1
+  WeaponPrefab: {fileID: 7019048296491818427, guid: 8f42cd4d5040a514f869e0bc6b610cc2,
+    type: 3}
+  initialRotation: {x: 0, y: 0, z: 0}
+  Shoot: {fileID: 8300000, guid: 8eaec18351274f14ba41488169803c06, type: 3}
+  Reload: {fileID: 8300000, guid: a9f05231d2e55014db03f867c9123f4c, type: 3}
+  bullet: {fileID: 1669117507815508311, guid: 855575aea87a3e343ab1af646bcb920b, type: 3}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c94046f2160bfe84c8d212c3f8cee4c3, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  WeaponType: 1
+  bulletDamage: 0
+  bullets: 1
+  reloadTime: 2
+  spawnDist: 1
+  loaded: 1
+  reloading: 0
+  ammo: 1
+  maxSpread: 0
+  WeaponPrefab: {fileID: 8116426643821683430, guid: de1f0a7c106286a468d69e1bb60007f1,
+    type: 3}
+  initialRotation: {x: 0, y: 180, z: 0}
+  Shoot: {fileID: 0}
+  Reload: {fileID: 0}
+  arrowPrefab: {fileID: 6065501715042706426, guid: 7c92e5f302049a04a9521a59e61560bb,
+    type: 3}
+  arrowProjectile: {fileID: 8343376654692524467, guid: 7adb5a68ff93d0d458350fc5c23b9374,
+    type: 3}
+  arrow: {fileID: 0}
+  gun: {fileID: 0}
+  Drawing: 0
+  drawTimerActive: 0
+  maxDrawStrength: 1
+  drawstrength: 0
+  drawTime: 0

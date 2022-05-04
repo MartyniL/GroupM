@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b857aaf58810c4b8d9ac06039419bb, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  WeaponType: 0
+  bulletDamage: 5
+  bullets: 8
+  reloadTime: 2
+  spawnDist: 1
+  loaded: 1
+  reloading: 0
+  ammo: 2
+  maxSpread: 10
+  WeaponPrefab: {fileID: 6473544297995423388, guid: 381b62e8ed27d3a46a7bc03b246d15fb,
+    type: 3}
+  initialRotation: {x: 0, y: 180, z: 0}
+  Shoot: {fileID: 8300000, guid: 4c43249938080574ba71179c0f460ad9, type: 3}
+  Reload: {fileID: 8300000, guid: 7bf281f21979df841930caa7c10e4036, type: 3}
+  bullet: {fileID: 2949515994986170276, guid: 2617efb1f77915345a31ea174a69a3d1, type: 3}
+  ReloadEnd: {fileID: 8300000, guid: 4a798325d927b564c9ba03ee963f843c, type: 3}
